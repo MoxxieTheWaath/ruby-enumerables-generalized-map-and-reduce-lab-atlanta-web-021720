@@ -9,4 +9,5 @@ def map(array)
 newArray
 end
 def reduce(array, sv=nil)
-  
+  if sv
+    
